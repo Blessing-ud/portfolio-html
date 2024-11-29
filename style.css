@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+ body {
+
+   background: linear-gradient(black,blue, blue,black);
+   font-family: 'lato', sans-serif;
+   line-height: 1.6;
+   max-width: 100%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 80%;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 2px #fff solid;
+  color: blue;
+}
+
+
+
+
+.container {
+  height:500px;
+  color: #FFF;
+  overflow: hidden;
+  padding: 0 160px;
+}
+
+.showcase h1 {
+  font-size: 40px;
+}
+
+/* Laptop and more */
+@media (min-width:952px) {
+  .stats {
+    display: flex;
+    margin: 0;
+  
+  }
+  
+  .stats-design {
+    display: flex;
+    position: absolute;
+  }
+  
+  
+  
+  .stats {
+    display: flex;
+    margin: 0;
+  
+  }
+  
+  .stats-design {
+    display: flex;
+    position: absolute;
+  }
+  
+  
+  
+  
+  .stats-design #yes{
+    height: 100px;
+    width: 100px;
+    background-color:orangered;
+    border-top-right-radius: 450px;
+    position: relative;
+    bottom: 650px;
+  }
+  
+  .first {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 1000px;
+  
+  }
+  
+  .second {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 234, 255);
+    border-bottom-right-radius: 545px;
+    position: relative;
+    bottom: 1000px;
+    left: 130px;
+  
+  }
+  
+  .third {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border-bottom-right-radius: 545px;
+    position: relative;
+    bottom: 1000px;
+    left: 240px;
+  }
+  
+  .fourth {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  
+  .fifth {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  
+  .sixth{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  
+  .seventh {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  .eight {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(23, 169, 0);
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 800px;
+    right: 50px;
+  }
+  
+  .nineth {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 50px;
+  }
+  
+  .tenth {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(47, 157, 4);
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 50px;
+  }
+   
+  .eleventh {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 234, 255);
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 500px;
+    left: 821px;
+  }
+  
+  .twelve {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-bottom-right-radius: 545PX;
+    position: relative;
+    bottom: 450px;
+    right: 550px;
+  }
+  
+  .thirthen{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 350px;
+    right: 200px;
+  }
+  
+  .fourthen{
+    height: 100px;
+    width: 100px;
+    background-color:orangered ;
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 250px;
+    right: 300px;
+  }
+  
+  .first {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 1000px;
+  
+  }
+  
+  .second {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 234, 255);
+    border-bottom-right-radius: 545px;
+    position: relative;
+    bottom: 1000px;
+    left: 130px;
+  
+  }
+  
+  .third {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border-bottom-right-radius: 545px;
+    position: relative;
+    bottom: 1000px;
+    left: 240px;
+  }
+  
+  .fourth {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  
+  .fifth {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  
+  .sixth{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  
+  .seventh {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+  }
+  .eight {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(23, 169, 0);
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 800px;
+    right: 50px;
+  }
+  
+  .nineth {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 50px;
+  }
+  
+  .tenth {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(47, 157, 4);
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 50px;
+  }
+   
+  .eleventh {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 234, 255);
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 500px;
+    left: 821px;
+  }
+  
+  .twelve {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-bottom-right-radius: 545PX;
+    position: relative;
+    bottom: 450px;
+    right: 550px;
+  }
+  
+  .thirthen{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 350px;
+    right: 200px;
+  }
+  
+  .fourthen{
+    height: 100px;
+    width: 100px;
+    background-color:orangered ;
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 250px;
+    right: 300px;
+  }
+}
+
+
+/* Tablets and under */
+@media (max-width: 950px) {
+  .container {
+    height:500px;
+    color: #FFF;
+    overflow: none;
+    padding: 0 160px;
+  }
+     
+  nav ul li a {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 ;
+    text-decoration: none;
+  }
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 10%;
+  position: sticky;
+  top: 0;
+}
+
+  .stats {
+    display: flex;
+    margin: 0;
+  
+  }
+  
+  .stats-design {
+    display: flex;
+    position: absolute;
+  }
+  
+  
+  
+  .stats {
+    display: flex;
+    margin: 0;
+  
+  }
+  
+  .stats-design {
+    display: flex;
+    position: absolute;
+  }
+  
+    
+  .stats-design #yes{
+    height: 100px;
+    width: 100px;
+    background-color:orangered;
+    border-top-right-radius: 450px;
+    position: relative;
+    bottom: 650px;
+  }
+  
+
+  
+
+  
+  
+  .third {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border-bottom-right-radius: 545px;
+    position: relative;
+    bottom: 1000px;
+    
+  }
+  
+  .fourth {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 190px;
+  }
+  
+  .fifth {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 190px;
+  }
+  
+  .sixth{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 190px;
+  }
+  
+  .seventh {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 190px;
+  }
+  .eight {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(23, 169, 0);
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 800px;
+    right: 290px;
+  }
+  
+  .nineth {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-top-left-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 290px;
+  }
+  
+  .tenth {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(47, 157, 4);
+    border-top-right-radius: 545px;
+    position: relative;
+    bottom: 900px;
+    right: 290px;
+  }
+   
+  .eleventh {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 234, 255);
+    border-bottom-left-radius: 545px;
+    position: relative;
+    bottom: 500px;
+    right: 210px;
+  }
+  
+  .twelve {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(0, 234, 255) ;
+    border-bottom-right-radius: 545PX;
+    position: relative;
+    bottom: 400px;
+    right: 450px;
+  }
+  
+  
+  
+}
+
+
+

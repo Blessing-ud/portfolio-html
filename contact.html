@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+  
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background: linear-gradient(black,blue);
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 3px 75% ;   
+    overflow:hidden;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+   border-bottom: 2px #fff solid;
+   color: blue;
+   }
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding: 150px 200px; 
+}
+
+
+.form-case {
+    display: flex;
+}
+
+
+
+#dad {
+            height: 300px;
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 7px 10px black;
+            position: relative;
+            left: 250px;
+            bottom: 100px;
+           
+            animation-name: glow;
+            animation-duration: 6s;
+            animation-iteration-count: 3;
+        }
+        @keyframes glow {
+            50% {box-shadow: 0 0 50PX yellow;}
+        }
+ 
+
+        #name {
+            font-size: 17px;
+            font-weight: bolder;
+            position: relative;
+            top: 20px;
+            left: 40px;
+        }
+
+        
+        #first-name {
+            width: 300px;
+            height: 22px;
+            border-radius: 7px;
+            box-shadow: 0px 4px 10px ;
+            position: relative;
+            top: 50px;
+            right: 55px;
+        }
+
+        #mail {
+            font-size: 17px;
+            font-weight: bolder;
+            position: relative;
+            top: 65px;
+            left: 40px;
+        }
+
+        #E-mail {
+            width: 300px;
+            height: 22px;
+            border-radius: 7px;
+            box-shadow: 0px 4px 10px;
+            position: relative;
+            top: 90px;
+            right: 30px;
+        }
+        
+
+        
+        #mess {
+            font-size: 17px;
+            font-weight: bolder;
+            position: relative;
+            left: 40px;
+            top: 103px;
+        }
+
+    #text {
+        width: 300px;
+        height: 22px;
+        border-radius: 7px;
+        box-shadow: 0px 4px 10px;
+        position: relative;
+        right: 40px;
+        top: 130px;
+    }
+
+
+    #to {
+        height: 30px;
+        width: 200px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 8px;
+        position: relative;
+        top: 170px;
+        left:20px;
+        box-shadow: 0px 6px 10px black;
+    }
+
+    #hre {
+        position: relative;
+        left: 30px;
+        top: 2px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        position: relative;
+        left: 250px;
+        bottom: 80px;
+        font-size: 50px;
+    }
+     
+
+    .container a i {
+     padding: 10px;
+    }
+
+
+    .fa-facebook {
+        color: rgb(255, 255, 255);
+    }
+
+    .fa-x {
+        color: #000;
+    }
+
+    .fa-whatsapp {
+        color: rgb(0, 238, 0);
+    }
+
+    .fa-instagram {
+        color: rgb(255, 30, 0);
+    }
+
+    .fa-phone {
+        color: green;
+    }
+
+
+    .cj {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(163, 238, 15);
+        border-top-right-radius: 200px;
+        position: relative;
+        top: 50px;
+        right: 20px;
+    }
+
+    .block {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: relative;
+        top: 50px;
+        right: 20px;
+    }
+
+    @media (max-width:600px) {
+        nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 3px 9% ;   
+    overflow:hidden;
+}   
+
+   
+h1 {
+    color: white;
+    font-size: 50px;
+    padding: 150px 100px; 
+}
+
+#dad {
+    position: relative;
+    left: 60px;
+    bottom: 100px;
+}
+
+
+.container {
+        position: relative;
+        left: 50px;
+        bottom: 80px;
+        font-size: 50px;
+    }
+    }
+
+    @media (max-width:880px) {
+        nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 3px 25% ;   
+    overflow:hidden;
+}   
+
+   
+h1 {
+    color: white;
+    font-size: 50px;
+    padding: 150px 100px; 
+}
+
+#dad {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+
+.container {
+        position: relative;
+        left: 70px;
+        bottom: 80px;
+        font-size: 50px;
+    }
+    .cj {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(163, 238, 15);
+        border-top-right-radius: 200px;
+        position: relative;
+        top: 0px;
+        right: 20px;
+    }
+
+    .block {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: relative;
+        top: 0px;
+        right: 20px;
+    }
+    }
+    
+  </style>
+</head>
+<body>
+    <naV>
+        <ul>
+            <li><a class="dd" href="../index.html">Home</a></li>
+            <li><a class="dd" href="./about.html">About</a></li>
+            <li><a class="dd" href="./project.html">Project</a> </li>
+            <li><a class="dd" href="./contact.html">Contact</a></li>
+        </ul>
+    </naV>
+    <h1>Contact Me</h1>
+    <div class="form-case">
+        <div id="dad">
+            <form action="do something.php">
+                <label id="name" for="Full-Name">Full-Name</label>
+                <input type="text" id="first-name" name="Full-Name" placeholder="Your Full Name">
+                <label id="mail" for="E-mail">E-mail</label>
+                <input type="text" id="E-mail" name="E-mail" placeholder="Your E-mail">
+                <label id="mess" for="Message">Message</label>
+                <input type="text" id="text" name="Message" placeholder="Send Message">
+                <div id="to">
+                    <a id="hre" href="mailto:udomblessing481@gmail.com"><h2>Contact Me</h2></a>
+                </div>
+            </form>
+        </div>
+    </div>
+   
+        <div class="container">
+         <a href="https://www.facebook.com/Big.udom27?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+         <a href="https://x.com/big_udom1?s=21"><i class="fa-solid fa-x"></i></a>
+         <a href="https://wa.me/+2348026458919"><i class="fa-brands fa-whatsapp"></i></a>
+         <a href="https://www.instagram.com/big.udom/profilecard/?igsh=c3lucHloejc5dHdu"><i class="fa-brands fa-instagram"></i></a>
+         <a href="tel:08026458919"><i class="fa-solid fa-phone"></i></a>
+       
+    </div>
+    <div class="cj"></div>
+    <div class="block"></div>
+    <div class="school"></div>
+    <div class="for"></div>
+
+</body>
+</html>
